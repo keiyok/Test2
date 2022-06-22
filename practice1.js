@@ -20,10 +20,10 @@ function stopWatch(){
      if (seconds /10==1){
         minutes++;
         seconds=0;
-     if (minutes /10==1){ 
+     if (minutes /60==1){ 
          hours++;
          minutes=0;
-     if(hours /10==1){
+     if(hours /60==1){
          times++;
          hours=0;
      }
